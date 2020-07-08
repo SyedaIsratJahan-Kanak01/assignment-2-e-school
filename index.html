@@ -4,8 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>e-school</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <header id="back-ground">
+
+        <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img class="icon" src="images/ICON/Logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Others</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <button class="button text-white">Sign in</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
     
+
+      <!--Text & Illustration-->
+
+      <section>
+        <article class="learn-text">
+            <p style="color: #FD511A;;" >Are you ready to learn</p>
+            <h2><b>Learn With fun</b></h2>
+            <h2><b>on <span style="color: #21B573;" >any schedule</span></b></h2>
+            <p style="color: #6C6B6B;" >Work on yourself. Work on your education.
+            <br> Build some mental strength – it’s much more important than passing a test.
+            </p>
+            <button class="button text-white">Get Started</button>
+          </article>
+          
+          
+          <picture>
+            <img id="illustration" src="images/Photos/Illustration.png" alt="">
+          </picture>
+      </section>
+    </header>
+
+    <!--Hover Books-->
+    
+    <div class="container">
+        <div class="row row-cols-4">
+          <div class="col">
+            <div class="card book-card">
+                <img src="images/ICON/book.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text book-text"><b>1500+ Topic</b><br><small style="color:#585859;">Learn Anythings</small></p>
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card book-card">
+                <img src="images/ICON/Student.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text book-text"><b>1800+ Students</b><br><small style="color:#585859;">Visit our Forum</small></p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card book-card">
+                <img src="images/ICON/Test.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text book-text"><b>9K+ Test Token</b><br><small style="color:#585859;">Excellence your Skill</small></p>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card book-card">
+                <img src="images/ICON/Students.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text book-text"><b>800+ Graduates</b><br><small style="color:#585859;">Meet the Alumni</small></p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Online Courses-->
+      
+      <div class="container">
+          <h1 id="course">Online Courses</h1>
+          <div>
+            <div class="card-deck">
+                <div class="card course-card">
+                  <img src="images/Photos/Morder pyschology.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Global Diplomacy</h5>
+                    <p class="card-text">Instructor : Maria Brown <br>Designation : Professor at Johns Hopkins University </p>
+                    <button class="button text-white">Buy Course</button>
+                  </div>
+                  <div class="card-footer">
+                      <div class="d-flex justify-content-between">
+                        <img id="calender" src="images/ICON/calendar.png" alt="">
+                        <small id="foot-text">Start 20 April, 2021</small>
+                        <img id="people" src="images/ICON/people.png" alt="">
+                        <small>60 seats</small>
+                    </div>
+                 </div>
+                </div>
+                <div class="card course-card">
+                  <img src="images/Photos/Morder psyc.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Philosophy & Cognative Science</h5>
+                    <p class="card-text">Instructor : John Eduward <br>Designation : Professor at Stanford University</p>
+                    <button class="button text-white">Buy Course</button>
+                  </div>
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between">
+                        <img id="calender" src="images/ICON/calendar.png" alt="">
+                        <small id="foot-text">Start 20 April, 2021</small>
+                        <img id="people" src="images/ICON/people.png" alt="">
+                        <small>60 seats</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="card course-card">
+                  <img src="images/Photos/Morder pychons.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Computer Science</h5>
+                    <p class="card-text">Instructor : Andrew Smith <br>Designation : Professor at University of Copenhagen</p>
+                    <button class="button text-white">Buy Course</button>
+                  </div>
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between">
+                        <img id="calender" src="images/ICON/calendar.png" alt="">
+                        <small id="foot-text">Start 20 April, 2021</small>
+                        <img id="people" src="images/ICON/people.png" alt="">
+                        <small>60 seats</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+
+
+
+    
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 </html>

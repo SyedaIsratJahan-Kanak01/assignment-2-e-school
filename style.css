@@ -1,0 +1,96 @@
+.icon{
+    width: 198.07px;
+    height: 59px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+#navbarNav{
+    margin-top: 25px;
+    margin-right: 110px;
+}
+.button{
+    background-color: #21B573;
+    border-radius: 33px;
+    border: none;
+    padding: 12px 28px;
+}
+#illustration{
+    position: absolute;
+    width: 554px;
+    height: 346px;
+    left: 691px;
+    top: 157px;
+}
+.learn-text{
+    margin-left: 150px;
+    margin-top: 70px;
+}
+#back-ground{
+    background-color: #F0FFF0;
+    height: 576px;
+}
+.book-card{
+    width: 200px;
+    height: 200px;
+    background: #F8FFFB;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 25px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.book-card img{
+    position: absolute;
+    width: 66px;
+    height: 85px;
+    left: 65px;
+    top: 40px;
+}
+.book-text{
+    margin-top: 110px;
+    text-align: center;
+}
+.book-card:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px lightgrey;
+}
+#course{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.course-card{
+    width: 370px;
+    height: 483px;
+    border-radius: 18px;
+}
+.course-card img{
+    width: 331px;
+    height: 224px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 18px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+#calender{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: -5px;
+    top: 430px;
+
+}
+#people{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 230px;
+    top: 430px;
+}
+#foot-text{
+    padding-left: 25px;
+}
+
