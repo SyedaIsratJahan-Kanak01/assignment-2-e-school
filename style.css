@@ -63,6 +63,12 @@
     width: 370px;
     height: 483px;
     border-radius: 18px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.course-card:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px lightgrey;
 }
 .course-card img{
     width: 331px;
@@ -109,18 +115,30 @@
 .blackbox{
     height: 300px;
     background-color: #282531;
+    width: 1334px;
+    padding-right: 100px;
     
 }
 .blackbox p{
     margin-left: 60px;
-    margin-top: 0px;
+    margin-top: 55px;
+}
+.blackbox button{
+    margin-left: 60px;
 }
 .blackbox ul{
     margin-top: 40px;
     list-style-type: none;
 }
+.blackbox input{
+    margin-left: 60px;
+    width: 300px;
+}
 .copywrite{
     margin-left: 550px;
+}
+::placeholder {
+    color: red;
 }
 
 

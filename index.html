@@ -23,16 +23,16 @@
         <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#books">Books <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Courses</a>
+              <a class="nav-link" href="#courses">Courses</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Others</a>
+              <a class="nav-link" href="#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#others">Subscribe</a>
             </li>
             <li class="nav-item">
                 <button class="button text-white">Sign in</button>
@@ -64,7 +64,7 @@
 
     <!--Hover Books-->
     
-    <div class="container">
+    <div class="container" id="books">
         <div class="row row-cols-4">
           <div class="col">
             <div class="card book-card">
@@ -103,7 +103,7 @@
 
       <!--Online Courses-->
       
-      <div class="container">
+      <div class="container" id="courses">
           <h1 id="course">Online Courses</h1>
           <div>
             <div class="card-deck">
@@ -161,7 +161,7 @@
 
       <!--Testimonial-->
 
-      <div class="container" style="margin-bottom: 100px;">
+      <div class="container" id="blog" style="margin-bottom: 100px;">
             <h1 id="testimonial">Testimonial</h1>
             <div class="row">
                 <div class="col-3">
@@ -176,11 +176,14 @@
 <!--Footer-->
 
       <div>
-        <div class="blackbox">
+        <div class="blackbox" id="others">
             <div class="row align-items-center">
               <div class="col-4 text-white">
                   <p>Leaders can motivate and inspire through communications. Great leaders are charismatic and articulate, and they use these attributes to rally the troops.</p>
+                  <input class="form-control input" type="text" placeholder="Type your Email">
+                  <button type="button" class="button">Subscribe</button>
               </div>
+              
               <div class="col-3 text-white">
                   <ul>
                       <li><b>Course</b></li>
@@ -212,8 +215,6 @@
                 </ul>
               </div>
             </div>
-            <br>
-            <br>
             <br>
             <footer>
                 <small class="text-white copywrite">Copywrite @ 2020 Syeda Israt Jahan Kanak</small>
